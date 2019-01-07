@@ -1,0 +1,15 @@
+class Q 
+{
+	public static void main(String[] args) 
+	{
+		P p1 = new P();
+		try
+		{
+			Object obj = p1.clone();
+		}
+		catch (CloneNotSupportedException ex)
+		{
+		}
+		System.out.println("done");
+	}
+}

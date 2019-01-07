@@ -1,0 +1,3 @@
+- Almost all the contents present in this repository is the property of Lara Technologies and it is a copyrighted material.
+- Must not be shared, printed and used for commercial purposes.
+- Strictly for study purpose by the induviduals.

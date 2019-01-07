@@ -1,0 +1,153 @@
+class Z implements Runnable 
+{
+	public void run ()
+	{
+		for (int i=0;i<70 ;i++ )
+		{
+			System.out.println("run:"+i);
+			try
+			{
+			Thread.sleep(1000);	
+			}
+			catch (InterruptedException ex)
+			{
+				ex.printStackTrace();
+			}
+			
+		}
+	}
+	public static void main(String[] args) 
+	{
+		Z obj=new Z();
+		Thread t1=new Thread(obj);
+		t1.start();
+		for (int i=30;i<50 ;i++ )
+		{
+			System.out.println("main:"+i);
+			try
+			{
+				Thread.sleep(1000);
+			}
+			catch (InterruptedException ex)
+			{
+				ex.printStackTrace();
+			}
+		}
+	}
+}
+/*
+main0
+main1
+main2
+main3
+main4
+main5
+main6
+main7
+main8
+main9
+main10
+main11
+main12
+main13
+main14
+main15
+main16
+main17
+main18
+main19
+
+F:\core
+
+F:\core
+main:30
+run:0
+run:1
+main:31
+run:2
+main:32
+run:3
+main:33
+run:4
+main:34
+run:5
+main:35
+run:6
+main:36
+main:37
+run:7
+main:38
+run:8
+run:9
+main:39
+run:10
+main:40
+run:11
+main:41
+run:12
+main:42
+run:13
+main:43
+main:44
+run:14
+run:15
+main:45
+run:16
+main:46
+run:17
+main:47
+main:48
+run:18
+run:19
+main:49
+run:20
+run:21
+run:22
+run:23
+run:24
+run:25
+run:26
+run:27
+run:28
+run:29
+run:30
+run:31
+run:32
+run:33
+run:34
+run:35
+run:36
+run:37
+run:38
+run:39
+run:40
+run:41
+run:42
+run:43
+run:44
+run:45
+run:46
+run:47
+run:48
+run:49
+run:50
+run:51
+run:52
+run:53
+run:54
+run:55
+run:56
+run:57
+run:58
+run:59
+run:60
+run:61
+run:62
+run:63
+run:64
+run:65
+run:66
+run:67
+run:68
+run:69
+*/

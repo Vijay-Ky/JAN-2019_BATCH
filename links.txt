@@ -1,0 +1,57 @@
+
+-use of  method overloading:
+ https://stackoverflow.com/questions/38967498/exact-need-of-method-overloading-in-java
+
+ -Why doesn't Java allow overriding of static methods?
+  https://stackoverflow.com/questions/2223386/why-doesnt-java-allow-overriding-of-static-methods
+
+ - why static block in child class does not get executed?
+ 	https://stackoverflow.com/questions/12530053/why-static-block-in-child-class-does-not-get-executed
+
+ - explicit casting from super class to subclass
+   https://stackoverflow.com/questions/4862960/explicit-casting-from-super-class-to-subclass 
+
+ - What is difference between C and JAVA?
+ 	1.https://practice.geeksforgeeks.org/problems/what-is-difference-between-c-and-java
+ 	2.https://techdifferences.com/difference-between-compiler-and-interpreter.html
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ - -
+ -
+ -
+ -
+ -
+ -
+ - -
+ -
+ -
+ -
+ -
+ -
+ - -
+ -
+ -
+ -
+ -
+ -
+ - -
+ -
+ -
+ -
+ -
+ -
+ - -
+ -
+ -
+ -
+ -
+ -
+ -

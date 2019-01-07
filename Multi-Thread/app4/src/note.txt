@@ -1,0 +1,5 @@
+wait()
+notify()
+notifyAll()
+these three methods are inherited in every class.
+in every object are (wait, notify, notifyAll)three method available.

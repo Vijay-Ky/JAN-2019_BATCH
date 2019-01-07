@@ -1,0 +1,4 @@
+abstract class A2
+{
+	private abstract void test1();
+}

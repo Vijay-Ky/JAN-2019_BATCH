@@ -1,0 +1,9 @@
+interface J
+{
+	static
+	{
+	}
+
+	{
+	}
+}

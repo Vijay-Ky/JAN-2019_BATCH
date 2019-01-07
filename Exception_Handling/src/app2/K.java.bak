@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class K 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter something");
+		String s1 = sc.next();
+		try
+		{
+			System.out.pritln("try begin");
+		}
+		catch (NumberFormatException ex)
+		{
+		}
+		finally
+		{
+	}
+}

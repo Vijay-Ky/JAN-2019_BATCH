@@ -1,0 +1,4 @@
+interface E
+{
+	final static int i = 0;
+}

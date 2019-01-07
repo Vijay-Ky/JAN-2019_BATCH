@@ -1,0 +1,12 @@
+package rst;
+class U extends pryce.N
+{
+	public static void main(String[]args)
+	{
+		N n1 = new pryce.N();
+		N n2 = new pryce.N();
+		N n3 = new pryce.N();
+		System.out.println("done");
+	}
+}
+ 

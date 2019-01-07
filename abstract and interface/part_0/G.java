@@ -1,0 +1,15 @@
+abstract class A 
+{
+	abstract void test1();
+	void test2()
+	{
+		System.out.println("from test2");
+	}
+}
+class G extends A
+{
+	void test1()
+	{
+		//some statement
+	}
+}

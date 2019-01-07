@@ -1,0 +1,21 @@
+interface A
+{
+	void test1();
+	void test2();
+}
+class Q1 implements A 
+{
+	/*public void test1()
+	{
+		System.out.println("from test1");
+	}
+	public void test2()
+	{
+		System.out.println("from test2");
+	}*/
+	public static void main(String[] ars)
+	{	
+		Q1 q1 = new Q1();
+		System.out.println("Q1-main");
+	}
+}

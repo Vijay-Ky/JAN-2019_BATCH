@@ -1,0 +1,19 @@
+class O 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try(N n1 = new N() ; N n2 = new N()) //JDK 1.7
+		{
+			System.out.println("from try");
+		}
+		catch(Exception ex)
+		{
+			System.out.println(ex);
+		}
+		finally
+		{
+			System.out.println("from finally");
+		}
+	}
+}

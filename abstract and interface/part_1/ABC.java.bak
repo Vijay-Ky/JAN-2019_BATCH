@@ -1,0 +1,12 @@
+abstract class AB
+{
+
+}
+class ABC 
+{
+	public static void main(String[] args) 
+	{
+		AB ab = new AB();
+		System.out.println("Hello World!");
+	}
+}
