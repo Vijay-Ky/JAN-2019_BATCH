@@ -11,4 +11,5 @@ class E
 			return 15;
 		}
 		return 20;
+	}
 }

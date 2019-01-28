@@ -13,7 +13,8 @@ class T
 		catch (NullPointerException ex)
 		{
 			System.out.println("from catch");
-			ex.printStackTrace(System.err);
+			System.out.println(ex);
+			//ex.printStackTrace(System.err);
 			//System.out.println(ex.getMessage());
 			System.out.println("catch end");
 		}

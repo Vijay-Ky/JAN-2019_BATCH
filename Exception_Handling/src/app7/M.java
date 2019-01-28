@@ -6,7 +6,7 @@ class M
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter age");
 		int age = sc.nextInt();
-		if(age <= 0)
+		if(age <= 18)
 		{
 			throw new AgeIsNegativeException("age should be > 0");
 		}

@@ -4,16 +4,14 @@ class I
 {
 	public static void main(String[] args) 
 	{
-		
-		Scanner sc = new Scanner(System.in);
 		System.out.println("enter something");
+		Scanner sc = new Scanner(System.in);
 		String s1 = sc.next();
 		try
 		{
 			System.out.println("try begin");
 			int i = Integer.parseInt(s1);
 			System.out.println("------");
-			int k = i / (i - 9);
 			System.out.println("try end");
 	
 		}
@@ -23,8 +21,8 @@ class I
 		}
 		catch (NumberFormatException ex)
 		{
-				System.out.println("Number Format Exception");
+			System.out.println("Number Format Exception");
 		}
-			System.out.println("main end");
+		System.out.println("main end");
 	}
 }

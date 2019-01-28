@@ -19,9 +19,9 @@ class G
 		{
 			int i = 10/0;
 		}
-		catch (ArithmeticException(ex))
+		catch (ArithmeticException ex)
 		{
-			System.out.println(ex)
+			System.out.println(ex);
 		}
 		System.out.println("test2 end");
 	}

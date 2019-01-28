@@ -2,8 +2,12 @@ class I
 {
 	public static void main(String[]args)
 	{
-		final int[] x = new int[3];
+		final String[] x = new String[3];
+		x = new String[4];
 		x[0] = null;
+		x[0] = null;
+		x[0] = "hi";
+		x[0] = "hello";
 		System.out.println("done");
 	}
 }

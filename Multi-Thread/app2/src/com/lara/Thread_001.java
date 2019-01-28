@@ -1,5 +1,3 @@
-
-
 public class Thread_001 implements Runnable
 {
 	private Runnable r1;
@@ -16,5 +14,3 @@ public class Thread_001 implements Runnable
 		}
 	}
 }
-//CS
-//no main method so RTE

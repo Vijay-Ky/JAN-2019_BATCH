@@ -7,7 +7,7 @@ class G
 	}
 	public static void main(String[] args) 
 	{
-		G g1 = new G(90);
+		G g1 = new G(12);
 		System.out.println("Done");
 	}
 }

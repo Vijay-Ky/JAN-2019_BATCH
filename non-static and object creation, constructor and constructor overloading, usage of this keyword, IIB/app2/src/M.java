@@ -1,5 +1,4 @@
-//151.Constructors
-class M//CTE
+class M
 {
 	M(int i)
 	{

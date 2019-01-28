@@ -5,9 +5,9 @@ class N
 	{
 		N n1 = new N();
 		n1 = new N();
-		final N n2 = n1;
+		final N n2 = new N();
 		n2 = n1;
 		System.out.println("done");
-		//System.out.println(n1.i);
+		System.out.println(n1.i);
 	}
 }

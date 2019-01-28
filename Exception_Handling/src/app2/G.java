@@ -21,7 +21,7 @@ class G
 		}
 		catch (ArithmeticException ex1)
 		{
-				System.out.println("exception");
+				System.out.println("outer catch exception");
 		}
 			System.out.println("main end");
 	}

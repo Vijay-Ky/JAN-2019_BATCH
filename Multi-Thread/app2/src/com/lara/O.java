@@ -1,5 +1,3 @@
-
-
 public class O
 {
 	public static void main(String[] args)
@@ -14,4 +12,4 @@ public class O
 		}
 	}
 }
-//CTE
+

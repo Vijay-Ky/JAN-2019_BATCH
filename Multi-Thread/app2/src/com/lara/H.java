@@ -1,5 +1,3 @@
-
-
 public class H implements Runnable
 {
 	public void run()
@@ -8,6 +6,7 @@ public class H implements Runnable
 		{
 			System.out.println("from run:" + i);
 		}
+		
 	}
 }
 //CS

@@ -10,7 +10,7 @@ class K extends J
 	K()
 	{
 		System.out.println("K()");
-		super ();
+		super();
 	}
 	public static void main(String[]args)
 	{

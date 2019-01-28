@@ -1,9 +1,17 @@
 class E
 { 
 	final static int i;
-
-	static
+	E()
 	{
 		i = 10;
 	}
+	/*static
+	{
+		i = 10;
+	}
+
+	static
+	{
+		i = 20;
+	}*/
 }

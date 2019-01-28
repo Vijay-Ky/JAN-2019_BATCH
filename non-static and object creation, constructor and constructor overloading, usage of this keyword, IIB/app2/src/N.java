@@ -8,7 +8,6 @@ class O
 
 	O(int)
 	{
-
 		System.out.println("O(int)");
 	}
 	public static void main(String[] args)

@@ -1,0 +1,16 @@
+//Constructors
+class C
+{
+	int i;
+	C()
+	{
+			System.out.println("C()");
+			i = 10;
+	}
+	public static void main(String[] args) 
+	{
+		new C();
+		System.out.println("--------");
+		//System.out.println(c1.i);
+	}
+}

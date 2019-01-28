@@ -53,10 +53,11 @@ class Encapsulate
 
 public class TestEncapsulation 
 {     
-    private static void main (String[] args)  
+    public static void main (String[] args)  
     { 
         Encapsulate obj = new Encapsulate(); 
-          
+          //System.out.println(obj.geekName);
+
         // setting values of the variables  
         obj.setName("Harsh"); 
         obj.setAge(19); 

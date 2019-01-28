@@ -1,5 +1,3 @@
-package com.lara;
-
 public class B
 {
 	static void test1()

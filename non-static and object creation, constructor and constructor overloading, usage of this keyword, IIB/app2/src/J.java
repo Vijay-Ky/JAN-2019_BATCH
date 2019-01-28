@@ -1,4 +1,3 @@
-//Constructors
 class J
 {
 	J()

@@ -6,7 +6,7 @@ class Z2
 		try
 		{
 			System.out.println(1);
-			int[] x = new int[9];
+			int[] x = new int[99999999];
 			System.out.println(2);
 		}
 		catch (OutOfMemoryError ex)

@@ -1,10 +1,9 @@
-//Constructors
 class O
 {
 	O()
 	{
-			this(10);
-			System.out.println("O()");
+		this(10);
+		System.out.println("O()");
 	}
 	O(int i)
 	{

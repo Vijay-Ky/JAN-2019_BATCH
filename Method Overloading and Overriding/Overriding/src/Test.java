@@ -15,7 +15,7 @@ class B extends A
 
     public static void display()
 	{
-        System.out.println("Inside static method of this class");
+        System.out.println("Inside static method of B class");
     }
 }
 

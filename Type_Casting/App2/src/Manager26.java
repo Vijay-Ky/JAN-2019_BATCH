@@ -4,8 +4,9 @@ class Manager26
 	{
 		A a1 = new B();//upcasting
 		B b1 = (B) a1;
-		System.out.println("-------");
+		
 		A a2 = new A();//no casting at all
 		B b2 = (B)a2;
+		System.out.println("-------");
 	}
 }

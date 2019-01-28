@@ -6,10 +6,10 @@ class N
 	}
 	public static void main(String[] args)
 	{
-		En all[]=En.values();
-		for(int i=0;i<all.length; i++)
+		En all[] = En.values();
+		for(int i = 0; i < all.length; i++)
 		{
-		System.out.println(all[i]);
+			System.out.println(all[i]);
 		}
 	}	
 } 

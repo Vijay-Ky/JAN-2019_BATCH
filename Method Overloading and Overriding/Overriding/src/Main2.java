@@ -19,10 +19,14 @@ class Child extends Parent
 { 
     // new m1() method 
     // unique to Child class 
-    /*public void m1()
+    public void m1()
     { 
         System.out.println("From child m1()");
-    }*/ 
+    } 
+	public void m2()
+    { 
+        System.out.println("From child m2()");
+    } 
       
     // overriding method 
     // with more accessibility 

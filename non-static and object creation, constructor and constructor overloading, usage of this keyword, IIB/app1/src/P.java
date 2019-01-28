@@ -4,13 +4,14 @@ class P
 	int i;
 	static void test(P obj)//every argument is local to current method
 	{
-		System.out.println("test:" + obj.i);s
+		System.out.println("test:" + obj.i);
 	}
 	public static void main(String[] args)
 	{
 		P p1 = new P();
 		System.out.println("main:" + p1.i);//0
-		p1.i = 10;
+		p1.i = 50;
 		test(p1);
+		System.out.println("main:" + p1.i);
 	}
 }

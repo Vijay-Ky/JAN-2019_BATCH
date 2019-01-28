@@ -3,8 +3,9 @@ class L
 	L()
 	{
 		super ();
-		System.out.println("L()");
 		this(10);
+		System.out.println("L()");
+		
 	}
 	L(int i)
 	{

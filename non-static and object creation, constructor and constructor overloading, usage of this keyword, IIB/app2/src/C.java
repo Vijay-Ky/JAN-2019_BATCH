@@ -5,13 +5,12 @@ class C
 	C()
 	{
 			System.out.println("C()");
-			i=10;
+			i = 10;
 	}
 	public static void main(String[] args) 
 	{
 		C c1 = new C();
-		System.out.println
-			("--------");
+		System.out.println("--------");
 		System.out.println(c1.i);
 	}
 }

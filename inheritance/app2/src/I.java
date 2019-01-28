@@ -1,11 +1,21 @@
-class I
+class Myclass
+{
+	Myclass()
+	{
+		System.out.println("Myclass()");
+	}
+	{
+		System.out.println("Myclass-IIB");
+	}
+}
+class I extends Myclass
 {
 	I()
 	{
 		System.out.println("I()");
 	}
 	{
-		System.out.println("IIB");
+		System.out.println("I-IIB");
 	}
 	I(int x)
 	{
@@ -13,16 +23,16 @@ class I
 	}
 	I(double d)
 	{
-		this();
+		super();
 		System.out.println("I(double)");
 	}
 	public static void main(String[]args)
 	{
-		I i1= new I();
-		System.out.println("-------");
-		I i2= new I(20);
-		System.out.println("-------");
+		//I i1= new I();
+		//System.out.println("-------");
+		//I i2= new I(20);
+		//System.out.println("-------");
 		I i3= new I(2.0);
-		System.out.println("-------");
+		//System.out.println("-------");
 	}
 }

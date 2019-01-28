@@ -11,7 +11,7 @@ class X
 		}
 		catch (ArithmeticException ex)
 		{
-			System.out.println("from catch:" + ex.getMessage());
+			System.out.println(ex.getMessage());
 		}
 		System.out.println("end of main");
 	}

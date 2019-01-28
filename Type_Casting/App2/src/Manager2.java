@@ -9,11 +9,13 @@ class Manager2
 		B b1 = null;
 		C c1 = null;
 		D d1 = null;
+		System.out.println(obj);
+		System.out.println(a1);
 		obj = new Object();
 		a1 = new A();
 		b1 = new B();
 		c1 = new C();
 		d1 = new D();
-		System.out.println("done");
+		
 	}
 }//null is literal which can be assign to any referal variable.

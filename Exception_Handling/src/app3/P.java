@@ -5,7 +5,7 @@ class P
 		try
 		{
 			//code
-			
+			return 19;
 		}
 		catch (ArithmeticException ex)
 		{

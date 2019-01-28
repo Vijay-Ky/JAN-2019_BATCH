@@ -6,7 +6,7 @@ public class Sum {
     // Overloaded sum(). This sum takes two int parameters 
     public int sum(int x, double y) 
     { 
-        return (x + y); 
+        return x + (int)y; 
     } 
   
     // Overloaded sum(). This sum takes three int parameters 

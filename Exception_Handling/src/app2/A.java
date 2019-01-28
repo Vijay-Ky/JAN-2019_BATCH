@@ -6,6 +6,7 @@ class A
 		try
 		{
 			int i = 0;
+			System.out.println(i);
 		}
 		catch (ArithmeticException ex)
 		{

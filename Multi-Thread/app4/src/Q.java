@@ -13,11 +13,11 @@ class Q
 
 	public static void main(String[] args) 
 	{
-		P p1=new P();
+		P p1 = new P();
 		Thread t1=new Thread (p1);
 		t1.start();
 		System.out.println("--------");
-		Thread t2=new Thread (p1);
+		Thread t2 = new Thread (p1);
 		t2.start();
 		System.out.println("--------");
 		for (int i=4000;i<5000 ;i++ )

@@ -1,5 +1,3 @@
-
-
 public class K implements Runnable
 {
 	public void run()

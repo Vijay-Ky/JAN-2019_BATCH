@@ -1,6 +1,8 @@
 class S
 { 
-	final int x = 10;
+	final int x;
+
+	static 
 	{
 		x = 10;
 	}

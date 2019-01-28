@@ -1,0 +1,8 @@
+abstract class S
+{ 
+	abstract static void test();
+}
+class A extends S
+{
+}
+

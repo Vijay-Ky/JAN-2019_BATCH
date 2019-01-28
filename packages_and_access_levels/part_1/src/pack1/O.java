@@ -6,7 +6,7 @@ class O
 		System.out.println("O()");
 	}
 }
-class P 
+class P extends O
 {
 	public static void main(String[]args)
 	{

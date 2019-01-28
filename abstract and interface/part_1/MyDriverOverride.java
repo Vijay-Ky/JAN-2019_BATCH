@@ -1,0 +1,22 @@
+abstract class MyOverride
+{
+	abstract void testDemo();
+	void test()
+	{
+		System.out.println("test of Myorride");
+	}
+}
+class MyDriverOverride extends MyOverride
+{
+	void testDemo()
+	{
+		System.out.println("test of MydriverOverride");
+	}
+	public static void main(String[] args) 
+	{
+		MyDriverOverride mdo = new MyDriverOverride();
+		mdo.testDemo();
+		//System.out.println(mdo.test());
+		System.out.println("Hello World!");
+	}
+}

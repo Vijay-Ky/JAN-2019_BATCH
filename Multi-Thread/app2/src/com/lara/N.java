@@ -1,5 +1,3 @@
-
-
 public class N extends M implements Runnable
 {
 	//some member
@@ -11,10 +9,3 @@ public class N extends M implements Runnable
 		}
 	}
 }
-/*
-com\lara\N.java:3: error: cannot find symbol
-public class N extends M implements Runnable
-                       ^
-  symbol: class M
-1 error
-*/

@@ -1,5 +1,3 @@
-
-
 public class A extends Thread
 {
 	public void run()
@@ -10,5 +8,3 @@ public class A extends Thread
 		}
 	}
 }
-//CS
-//no main method so RTE

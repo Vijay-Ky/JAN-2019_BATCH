@@ -1,12 +1,18 @@
-enum E
+enum E 
 {
 	C1,C2,C3,C4;
+	void test1()
+	{
+		System.out.println("from E test1()");
+	}
 }
 class F
 {
 	public static void main(String[] args)
 	{
-		System.out.println(E.C1);
+		E e1 = E.C4;
+		e1.test1();
 		System.out.println(E.C3);
+		System.out.println(e1);
 	}
 }

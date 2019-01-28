@@ -6,11 +6,11 @@ class O
 		System.out.println("O()");
 	}
 }
-class P
+class P 
 {
 	public static void main(String[]args)
 	{
-		O o1= new O();
+		O o1 = new O();
 		System.out.println("done");
 	}
 }

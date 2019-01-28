@@ -17,6 +17,9 @@ class E1
 	
 	public static void main(String[] args) 
 	{
+		{
+			System.out.println("main IIB");
+		}
 		test();
 		E1 e1 = new E1(90);
 		System.out.println("---------");

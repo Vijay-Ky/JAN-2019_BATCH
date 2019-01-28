@@ -14,6 +14,5 @@ class B
 		System.out.println("---------");
 		B b2 = new B();
 		System.out.println("---------");
-
 	}
 }

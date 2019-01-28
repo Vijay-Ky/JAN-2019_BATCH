@@ -1,0 +1,48 @@
+// Program to illustrate super keyword 
+// refers super-class instance 
+
+class Parent
+{ 
+	// instance variable 
+	int a = 10; 
+	// static variable 
+	static int b = 20; 
+
+	void myParentMethod()
+	{
+		System.out.println("from Parent method");
+	}
+} 
+
+class Base extends Parent
+{ 
+	void myMethod() 
+	{ 
+		// referring parent class(i.e, class Parent) 
+		// instance variable(i.e, a) 
+		//this.a = 200;
+		super.myParentMethod();
+		this.myMethodThis();
+		System.out.println(super.a); 
+
+		// referring parent class(i.e, class Parent) 
+		// static variable(i.e, b) 
+		//this.b = 400;
+		System.out.println(super.b); 
+	} 
+
+	void myMethodThis() 
+	{ 
+		super.myParentMethod();
+		System.out.println("from this method");
+	}
+
+	public static void main(String[] args) 
+	{ 
+		// Uncomment this and see here you get 
+		// Compile Time Error since cannot use 'super' 
+		// in static context. 
+		//super.a = 700; 
+		new Base().myMethod(); 
+	} 
+} 

@@ -3,7 +3,7 @@ interface A
 	void test1();
 	void test2();
 }
-class Q implements A 
+abstract class Q implements A 
 {
 	public void test1()
 	{

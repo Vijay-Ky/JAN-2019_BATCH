@@ -6,13 +6,15 @@ class Overload
 	}
 
 	public static int test(int i)
-	{//
+	{
 		System.out.println("int test");
 		return i;
 	}
 
 	public static void main(String[] a)
 	{
-		test(10);
+		test();
+		//System.out.println(test());
+		System.out.println(test(10));
 	}
 }

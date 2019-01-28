@@ -1,4 +1,4 @@
-class Y
+class Z
 {
 	static
 	{

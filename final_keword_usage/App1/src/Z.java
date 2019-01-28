@@ -7,6 +7,11 @@ class Z
 	}
 	Z(int j)
 	{
-		i = 10;
+		i = 20;
+	}
+	public static void main(String[] args)
+	{
+		Z z1 = new Z(10);
+		Z z2 = new Z();
 	}
 }

@@ -12,7 +12,6 @@ class H
 			System.out.println("try begin");
 			int i = Integer.parseInt(s1);
 			System.out.println("------");
-			int k = i / (i - 9);
 			System.out.println("try end");
 	
 		}

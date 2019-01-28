@@ -1,5 +1,3 @@
-
-
 public class P implements Runnable
 {
 	@Override

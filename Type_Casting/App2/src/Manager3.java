@@ -4,6 +4,8 @@ class Manager3
 	{
 		Object obj1 = null;
 		Object obj2 = null;
+		System.out.println(obj1);
+		System.out.println(obj2);
 		obj1 = obj2;
 		A a1 = null;
 		A a2 = null;

@@ -1,5 +1,5 @@
 package pryce;
-public class N
+class N
 {
-int i;
+	 int i;
 }

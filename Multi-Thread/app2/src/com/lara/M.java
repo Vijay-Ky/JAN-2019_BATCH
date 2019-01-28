@@ -1,5 +1,3 @@
-
-
 public class M
 {
 	//some member

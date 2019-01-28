@@ -1,0 +1,11 @@
+class W 
+{
+	public static void main(String[] args) throws InterruptedException
+	{
+		for (int i=0;i<20 ;i++ )
+		{
+			System.out.println("main:"+i);
+			Thread.sleep(500);	// here we use the sleep method of thread which in method value we pass the no. of the milliseconds..
+		}
+	}
+}
